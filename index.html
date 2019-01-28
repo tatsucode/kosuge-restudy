@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <h1 class="text-center logo"><img src="images/logo.png" alt=""></h1>
+
+
+    <div class="text-center block-choose">
+        <select name="courseName" id="courseName" class="block-choose__courseName">
+            <option value="LAB">LAB</option>
+            <option value="DEV">DEV</option>
+        </select>
+        <button class="btn waves-effect waves-light btn-large block-choose__btn" id="start"><a onClick="sound()">スタート</a></button>
+    </div>
+
+    <div id="app">
+        
+                
+    </div>
+
+    <audio id="sound-file" preload="auto">
+        <source src="sound/decision18.mp3" type="audio/mp3">
+    </audio>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
